@@ -1,0 +1,10 @@
+def pattern(n):
+    num=1
+    for i in range(0,n+1):
+        num=1
+        for j in range(0,i):
+            print(num,end=" ")
+            num=num+1
+        print("")
+n=6
+pattern(n)
